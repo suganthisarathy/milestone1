@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ComparisonChart</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<body>
+	<div class="head">
+		<p style="padding-top: 20px">STOCK MARKETING</p>
+	</div>
+	<div class="content">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+
+				<ul class="nav navbar-nav">
+					<li><a href="#">IPO'S</a></li>
+					<li><a href="#">Compare Companies</a></li>
+					<li><a href="#">Compare Sectors</a></li>
+					<li><a href="#">Update </a></li>
+					<li><a href="#">Logout</a>
+				</ul>
+			</div>
+		</nav>
+		<table>
+			<tr>
+				<td>Select Companies/Sector</td>
+				<td>
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button"
+							data-toggle="dropdown">
+							Company <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">Company</a></li>
+							<li><a href="#">Sector</a></li>
+						</ul>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Select Stock Exchange</td>
+				<td>
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button"
+							data-toggle="dropdown">
+							BSE <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">BSE</a></li>
+							<li><a href="#">NSE</a></li>
+							
+						</ul>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Company</td>
+				<td><input type="text" id="company"></td>
+			</tr>
+			<tr>
+				<td>From Date</td>
+				<td>To Date</td>
+			</tr>
+			<tr>
+				<td>Specify Periodicity</td>
+				<td><input type="text"></td>
+			<tr>
+		</table>
+		<div style="padding-top: 25px;">
+			<input type="button" value="upload" class="button">
+		</div>
+	</div>
+</body>
+<div class="foot" style="height: 5vh">
+	<p style="padding-top: 25px;">Copyright&copy;2019</p>
+</div>
+
+</html>

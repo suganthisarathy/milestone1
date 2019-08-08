@@ -1,0 +1,68 @@
+.head
+{
+	height:10vh;
+	background-color:#000000d1;
+	text-align:center;
+	font-size:25px;
+	color:white;
+}
+.content
+{
+	height:85vh;
+}
+.foot
+{
+	height:5vh;
+	background-color:#000000d1;
+	text-align:center;
+	color:white;
+	
+}
+
+.link
+{
+background-color:blue;
+font-sixe:20px;
+text-decpration:none;
+}
+nav ul li
+{
+padding-left:150px;
+font-size:25px;
+color:blue;
+}
+.paragraph {
+	margin-left: 580px;
+	colo: black;
+	font-size: 45px;
+}
+
+table {
+	margin-left: 580px;
+	margin-top: 100px;
+}
+
+table td {
+	padding-left: 30px;
+	padding-top: 35px;
+}
+
+.excel {
+	margin-left: 560px;
+	margin-top: 550px;
+}
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #555555;
+	margin-left: 750px;
+}
